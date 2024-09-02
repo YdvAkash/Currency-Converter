@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "averta cy w10";
+    background-color: cornsilk;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    color: #008000;
+    background-color: cornsilk;
+    gap:10vh
+}
+
+.navbar{
+    position: sticky;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.input{
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 5vw;
+}
+.input input{
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkgreen;
+    background-color: transparent;
+    border: none;
+      border-bottom: 2px solid green;
+}
+.button{
+    margin-top: 10vh;
+}
+.Converted{
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: center;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    font-size: 25px;
+
+}
+.Converted input{
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkgreen;
+    background-color: transparent;
+    border: none;
+      border-bottom: 2px solid green;
+}
+.button button{
+    font-weight: 600;
+    background-color: #008000;
+    border: none;
+    color: white;
+    padding: 20px;
+    letter-spacing: 2px;
+    height: 8vh;
+    font-size: 29px;
+    border-radius: 15px;
+    width: auto ;
+}
+/* Include this in your existing style.css */
+select {
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: darkgreen;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+    margin-left: 10px;
+}
